@@ -27,3 +27,5 @@ Players will use different supply portfolio options to meet the users' demands a
 Please note that not all supply options are available to all sectors. For example, greywater is not a option for agricultural or environmental users. Each option also has a different unit cost (Table.4) and unit energy.
 
 The current model (game) has two basins: upper and lower. Currently, both upper and lower basins have the same set up, target demand, and unit supply costs. However, it can be easily updated to make them different if necessary.
+
+When choosing supply quantities, there is some limitations (constraints) players should consider. It is desired to meet users' target demands but we don't want to give more than their demands. Target demand indicators in Table.1 will turn into yellow if meeting target demand is greater than 100%. Similary, water scarcity is not desired, either. Cells become red if meeting target demand indicator is less than 100%. In addition, there is maximum water availability constraint. Total used groundwater or surface water options cannot exceed what is available.
